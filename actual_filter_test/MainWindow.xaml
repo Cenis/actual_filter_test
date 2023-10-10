@@ -1,0 +1,13 @@
+﻿<Window x:Class="XmlExtractor.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="XML Extractor" Height="350" Width="525">
+    <Grid>
+        <Button x:Name="btnLoadXml" Content="Load XML" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="10,10,0,0" Click="btnLoadXml_Click"/>
+        <Button x:Name="btnExtractAndSave" Content="Extract and Save" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" Margin="100,10,0,0" Click="btnExtractAndSave_Click"/>
+        <TextBox x:Name="txtXmlOutput" HorizontalAlignment="Left" Height="250" Margin="10,45,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="480"/>
+    </Grid>
+</Window>
